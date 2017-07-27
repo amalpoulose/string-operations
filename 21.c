@@ -1,7 +1,7 @@
 /* To display given string is anagram or not
 By Amal Poulose   +919446047003  amalpoulose1995@gmail.com*/
 #include<stdio.h>
-void non_alphabet_remove_and_sorting(char str[]); //function declaration
+void non_alphabet_remove_and_sorting(char *str); //function declaration
 int main(void)
 {
 int i;
@@ -30,7 +30,7 @@ printf("\n----------------------------------------------------------\n");
 return(0);
 }
 
-void non_alphabet_remove_and_sorting(char str[]) //function definition
+void non_alphabet_remove_and_sorting(char *str) //function definition
 {
   int i,j;
 
