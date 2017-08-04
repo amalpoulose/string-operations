@@ -3,7 +3,8 @@ By Amal Poulose 9446047003      amalpoulose1995@gmail.com*/
 #include<stdio.h>
 int main(void)
 {
-	char str[100],start,end,i,j;
+	char str[100];
+	int start,end,i,j;
         printf("\n---------------------------------------------------------\n");
 	printf("enter the string  :");
 	scanf("%[^\n]",str);
