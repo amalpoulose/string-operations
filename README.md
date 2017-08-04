@@ -1,6 +1,5 @@
 # operations-on-string-in-c
-Programs on string in c
-Strings:-
+Programs on string in c:-
 ------------------------------------------------------------------------------------------
  
 1) Write a program to find string length using pointer.
