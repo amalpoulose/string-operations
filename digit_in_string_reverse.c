@@ -22,7 +22,7 @@ int main(void)
 			str[i]^=str[j]^=str[i]^=str[j];
 	}
         printf("\n---------------------------------------------------------\n");
-	printf("The new string is    :%s \n",str);
+	printf("\nThe new string is    : %s \n",str);
         printf("\n---------------------------------------------------------\n");
 	return(0);
 }       
