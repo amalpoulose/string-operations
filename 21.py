@@ -4,7 +4,6 @@ def spchr_rm(l):
     it=iter(l[:]) # to avoid shallow copy
     try:
         while True:
-    
             temp=next(it)
             if not temp.isalpha():
                 l.remove(temp)
@@ -20,9 +19,9 @@ def main():
     spchr_rm(l1)
     spchr_rm(l2)
     if l1==l2:
-        print "Anagram"  
+        print s1," and ",s2," are Anagram"  
     else:
-        print "not anagram"
+        print s1," and ",s2," are not anagram"
     
 if __name__=="__main__":
     main()
