@@ -2,9 +2,9 @@
 
 def main():
     s=raw_input("sting : ")
+    key=input("key :" )
     #print s
     lis=list(s)
-    key=4
     count=0
     for i in range(len(lis)):
         if not ((ord(lis[i])<65 or ord(lis[i])>90) and (ord(lis[i])<97 or ord(lis[i])>122)):
